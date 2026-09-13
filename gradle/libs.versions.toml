@@ -1,0 +1,17 @@
+[versions]
+spring-boot = "4.1.1"
+jmh = "1.37"
+jmh-plugin = "0.7.3"
+
+[libraries]
+spring-boot-bom = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring-boot" }
+spring-boot-web = { module = "org.springframework.boot:spring-boot-starter-web" }
+spring-boot-data-jpa = { module = "org.springframework.boot:spring-boot-starter-data-jpa" }
+spring-boot-test = { module = "org.springframework.boot:spring-boot-starter-test" }
+h2 = { module = "com.h2database:h2" }
+jmh-core = { module = "org.openjdk.jmh:jmh-core", version.ref = "jmh" }
+jmh-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess", version.ref = "jmh" }
+
+[plugins]
+spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
+jmh = { id = "me.champeau.jmh", version.ref = "jmh-plugin" }

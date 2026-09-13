@@ -2,6 +2,17 @@
 
 JVM 워밍업과 JIT 컴파일을 운영 관점에서 설명하는 8부작 시리즈입니다.
 
+## 실험 프로젝트
+
+Java 21, Gradle Kotlin DSL과 Version Catalog를 사용합니다. `core`의 계산 코드를 Spring Boot와 JMH가 함께 호출합니다.
+
+```bash
+./gradlew clean build
+./gradlew :app:bootRun
+./scripts/request-sequence.sh
+./gradlew :benchmarks:jmh
+```
+
 ## 목차
 
 | 회차 | 제목 | 상태 |
@@ -40,4 +51,3 @@ git push
 - 기술 용어는 처음 등장할 때 한글과 영문을 함께 적습니다.
 - 예제 수치는 실제 측정값인지 설명용 가상 수치인지 명시합니다.
 - 새로운 회차나 제목을 바꾸면 README 목차도 함께 수정합니다.
-
