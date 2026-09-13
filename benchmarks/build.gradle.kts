@@ -10,9 +10,4 @@ dependencies {
 
 jmh {
     jmhVersion.set("1.37")
-    warmupIterations.set(3)
-    iterations.set(5)
-    fork.set(2)
-    timeOnIteration.set("500ms")
-    warmup.set("500ms")
 }

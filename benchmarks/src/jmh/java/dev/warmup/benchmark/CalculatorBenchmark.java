@@ -22,7 +22,16 @@ public class CalculatorBenchmark {
     private final Calculator calculator = new Calculator();
 
     @Benchmark
-    public long calculate() {
+    public long steadyStateAverage() {
+        return calculator.calculate(100_000);
+    }
+
+    @Benchmark
+    @BenchmarkMode(Mode.SingleShotTime)
+    @Warmup(iterations = 0)
+    @Measurement(iterations = 1)
+    @Fork(5)
+    public long firstInvocation() {
         return calculator.calculate(100_000);
     }
 }
