@@ -15,16 +15,16 @@ Java 21, Gradle Kotlin DSL과 Version Catalog를 사용합니다. `core`의 계�
 
 ## 목차
 
-| 회차 | 제목 | 상태 |
-|---|---|---|
-| 1 | [첫 요청이 느린 범인은 JIT 하나가 아니다](chapters/01-first-request-is-not-only-jit.md) | 초안 |
-| 2 | [Java 코드는 처음에 어떻게 실행되는가](chapters/02-how-java-code-runs.md) | 개요 |
-| 3 | [JIT는 어떤 코드를 컴파일할까](chapters/03-how-code-becomes-hot.md) | 개요 |
-| 4 | [왜 한 번이 아니라 단계적으로 빨라질까](chapters/04-tiered-compilation.md) | 개요 |
-| 5 | [JIT가 실제로 하는 최적화](chapters/05-jit-optimizations.md) | 개요 |
-| 6 | [최적화된 코드가 다시 느려질 수도 있다](chapters/06-deoptimization.md) | 개요 |
-| 7 | [워밍업을 어떻게 제대로 측정할까](chapters/07-measuring-warmup.md) | 개요 |
-| 8 | [운영 환경에서는 워밍업을 어떻게 다룰까](chapters/08-warmup-in-production.md) | 개요 |
+| 회차 | 제목                                                                       | 상태 |
+|----|--------------------------------------------------------------------------|----|
+| 1  | [첫 요청이 느린 범인은 JIT 하나가 아니다](chapters/01-first-request-is-not-only-jit.md) | 초안 |
+| 2  | [Java 코드는 처음에 어떻게 실행되는가](chapters/02-how-java-code-runs.md)              | 초안 |
+| 3  | [JIT는 어떤 코드를 컴파일할까](chapters/03-how-code-becomes-hot.md)                 | 개요 |
+| 4  | [왜 한 번이 아니라 단계적으로 빨라질까](chapters/04-tiered-compilation.md)               | 개요 |
+| 5  | [JIT가 실제로 하는 최적화](chapters/05-jit-optimizations.md)                      | 개요 |
+| 6  | [최적화된 코드가 다시 느려질 수도 있다](chapters/06-deoptimization.md)                   | 개요 |
+| 7  | [워밍업을 어떻게 제대로 측정할까](chapters/07-measuring-warmup.md)                     | 개요 |
+| 8  | [운영 환경에서는 워밍업을 어떻게 다룰까](chapters/08-warmup-in-production.md)             | 개요 |
 
 ## 관리 방법
 
